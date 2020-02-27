@@ -3,6 +3,7 @@
     width: auto;
     padding: 10px;
     border-radius: 20px;
+    float: left;
 }
 
 footer {
@@ -10,7 +11,13 @@ footer {
     font-size: 15px;
 }
 
-.summary {
-    background-color: #036FD4;
-    height: 600px;
+html {
+    background-color: #00a8cc;
+}
+
+
+@media screen and (max-width: 768px) {
+    div.navbar{
+        display: none;
+    }
 }
