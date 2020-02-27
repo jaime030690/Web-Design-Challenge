@@ -1,7 +1,16 @@
-.summary img {
-    float: left;
-    margin: 30px;
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
+.container img{
+    height: 175px;
+    width: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+}
+
+.summary {
+    background-color: #036FD4;
+    height: 600px;
 }
