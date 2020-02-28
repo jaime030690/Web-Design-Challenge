@@ -1,23 +1,12 @@
+
 .container img{
     height: 175px;
     width: auto;
-    padding: 10px;
+    margin: 10px;
     border-radius: 20px;
-    float: left;
 }
 
 footer {
     text-align: center;
     font-size: 15px;
-}
-
-html {
-    background-color: #00a8cc;
-}
-
-
-@media screen and (max-width: 768px) {
-    div.navbar{
-        display: none;
-    }
 }
