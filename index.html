@@ -17,34 +17,44 @@
     </button>
   
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary">Plots</button>
+            <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#!">Action</a>
+              <a class="dropdown-item" href="#!">Another action</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Comparison</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
+          <a class="nav-link" href="/data.html">Data</a>
         </li>
       </ul>
     </div>
   </nav>
   
   <!--Summary section-->
-  <section class="summary">
+  <section class="main">
     <div class="container">
       <div class="row">
 
         <!--Summary, first col-->
-        <div class="col-6">
+        <div class="col-6 summary">
           <h1>Summary</h1>
           <a href="Resources/assets/images/lat_v_maxt.png"><img src="Resources/assets/images/lat_v_maxt.png"></a>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, excepturi ratione itaque inventore culpa fugiat deleniti quidem accusamus doloremque nihil consectetur aperiam dolor, asperiores exercitationem aliquam? Quibusdam aut minus, nostrum tempore, sapiente autem accusamus aperiam architecto eius ab error nihil. Dolor assumenda aperiam, repellendus eligendi tempore blanditiis optio molestiae obcaecati?</p>
         </div>
 
         <!--Viz, second col-->
-        <div class="col-6">
+        <div class="col-6 summary">
           <h1>Visualization</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vel officia itaque sequi nemo repellendus soluta, a provident illum fuga!</p>
 
@@ -57,10 +67,10 @@
     </div>
   </section>
 
-  <!--Footer section-->
-  <footer>
-    <p>Jaime Echevarria &copy;</p>
-  </footer>
+  <!--Footer-->
+  <nav class="navbar fixed-bottom navbar-dark bg-primary">
+    <a class="navbar-brand" href="#!">&copy; Jaime Echevarria</a>
+  </nav>
 
 </body>
 </html>
